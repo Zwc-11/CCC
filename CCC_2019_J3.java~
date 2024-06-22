@@ -1,0 +1,42 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.Scanner;
+public class CCC_2019_J3 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner sc = new Scanner(System.in);
+    
+    int line = sc.nextInt();
+    
+    String[] symbol = new String[line];
+    
+    for(int i = 0; i< line ; i++){
+      symbol[i] = sc.nextLine();
+   }
+    
+    
+    
+    for(int z = 0; z < line; z++)
+    {
+      for(int x = 0; x < symbol[i].length(); x++)
+      {
+        if(symbol[i].charAt(x) != symbol[i].charAt(x+1))
+        {
+          System.out.println(j + " " + symbol[i].charAt(x) + " ");
+        }
+        else
+        {
+        System.out.println(j + " " + symbol[i].charAt(x));
+        }
+      
+      }
+      System.out.println();
+    }
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

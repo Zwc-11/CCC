@@ -1,0 +1,16 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class CCC_2018_J2 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner sc = new Scanner(System.in);
+    int line1 = sc.nextInt();
+    String line2 = sc.nextInt();
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

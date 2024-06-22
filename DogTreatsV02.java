@@ -1,0 +1,60 @@
+// DogTreatsV02.java
+import java.io.File;  // Import the File class
+import java.io.FileNotFoundException;  // to handle errors
+import java.util.Scanner; // Import the Scanner class to read text files
+
+public class DogTreatsV02 {
+  public static void main(String[] args) {
+  
+    DogTreatsV02 dt = new DogTreatsV02();
+    dt.loadData();
+
+    int score = 0;
+    //score = ??
+    if (score >= 10)
+      System.out.println("happy");
+    else
+      System.out.println("sad");
+
+  }
+  
+  public int S;
+  public int M;
+  public int L;
+
+  public void loadData() {
+    try {
+      String data_folder = "CCC_2020_all_data/junior_data/j1/";
+                               //CCC-2020-all_data/all_data/junior_data/j1
+      //String data_folder = "all_data/junior_data/j1/";
+      String fname;
+      fname = "j1.sample.01.in"; //
+      //fname = "j1.01.01.in"; //
+      //fname = "j1.01.02.in"; //
+      //fname = "j1.01.03.in"; //
+      
+      // ... homework, try all other data files
+            
+      String file_and_folder = data_folder + fname; 
+      System.out.println(file_and_folder);
+      
+      File f = new File(file_and_folder);
+      Scanner myReader = new Scanner(f);
+      
+      String strS = myReader.nextLine().trim();
+      String strM = myReader.nextLine().trim();
+      String strL = myReader.nextLine().trim();
+
+      S = Integer.parseInt(strS);
+      M = Integer.parseInt(strM);
+      L = Integer.parseInt(strL);
+      //System.out.println("S:" + S + ", M:" + M + ", L:" + L);
+      System.out.println("S:" + S + ", M:" + M + ", L:" + L);
+
+      myReader.close();
+    } catch (FileNotFoundException e) {
+      System.out.println("An error occurred.");
+      e.printStackTrace();
+    }
+  }
+}

@@ -1,0 +1,20 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class CCC_2019_J2 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner sc = new Scanner(System.in);
+    int num = Integer.parseInt(sc.nextLine());
+  
+  
+  }
+  
+  
+  
+  
+  /* ADD YOUR CODE HERE */
+  
+}

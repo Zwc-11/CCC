@@ -1,0 +1,19 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class CCC_2018_j1 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner sc = new Scanner(System.in);
+    int number [] =  new number[3];
+    for(int = 0; i<4 ; i++){
+      int number = sc.nextInt();
+    }
+    if(number)
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}
